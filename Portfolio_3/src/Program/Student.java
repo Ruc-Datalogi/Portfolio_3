@@ -80,7 +80,6 @@ public class Student {
             }else {
                 value = "" + this.Courses.get(name).toString();
             }
-            System.out.println("hello");
             output += key + " grade: " + value + "\n";
         }
         return output;
